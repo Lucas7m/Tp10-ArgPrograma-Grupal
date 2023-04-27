@@ -1,0 +1,30 @@
+table{
+    width: 30%;
+    background-color: white;
+}
+
+table, tr, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+
+.tabla2{
+    margin-top: 20px;
+}
+
+
+.redimensionado{
+    width: 800px;
+    height: 70px;
+    background-color: aqua;
+    border: 1px solid black;
+    
+}
+
+form{
+    
+    background-color: aquamarine;
+    padding: 5px;
+    border: 1px solid black;
+}

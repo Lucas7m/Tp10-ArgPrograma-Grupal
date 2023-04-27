@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Rubik';
+}
+
+html,body{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    
+    align-items: center;
+    justify-content: space-around;
+    margin: 0;
+}
+
+.tabla{
+    width: 200px;
+    height: 100px;
+    border-collapse:collapse;
+    cursor: pointer;
+    box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, .5);
+    
+}
+
+.fila{
+    background-color:aquamarine;
+    text-align: center;
+    border: 2px solid #fff;
+}
+
+.fila:hover{
+    background-color: #777;
+}
+
+.otherColor{
+    background-color: coral;
+}
+
+.item{
+    margin: 1rem;
+    cursor: pointer;
+    padding: 1rem;
+    background-color: burlywood;
+}
+
+.item:hover{
+    background-color: brown;
+}
